@@ -79,7 +79,7 @@ h1{
  .description li:focus{
     background-color: hsl(75, 94%, 60%);
 }
-.description h3{
+.description h2{
   color: hsl(75, 94%, 57%); 
    padding-bottom: 2em;
 }
