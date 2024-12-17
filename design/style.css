@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+@font-face  {
+    font-family: 'Inter-Bold.ttf';
+    src: url('./asset/font/static/Inter-Bold.ttf');
+}
+
+html{
+    background-color:hsl(0, 0%, 8%) ;
+    font-family: "Inter-Bold",serif,"Times bew Roman";
+}
+.container{
+    
+    padding: 1em;
+    margin: 1em;
+    height: 91vh;
+    width: 80%;
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    text-align: center;
+    
+     @media(min-width: 900px){        
+       position: relative;
+       top: 80px;
+       left: 250px;
+       width: 380px;
+       height: 600px;              
+    }
+    @media(min-width: 1440px){        
+       position: relative;
+       top: 80px;
+       left: 450px;
+       width: 380px;
+       height: 600px;              
+    }
+    
+}
+h1{
+    padding-bottom: .5em;
+}
+.description ul li{
+    background-color: hsl(0, 0%, 20%);
+}
+.description li{
+    list-style: none;
+    padding: 1em; 
+    margin: 1em;
+    border-radius:15px;
+}
+
+.description p
+{   font-size: 14px;
+    
+}
+
+.profile-image img{
+    display: grid;
+    position: relative;
+    left: 75px;
+    border-radius: 200px;
+    height: 100px;
+    width: 100x;
+    margin: 1em;
+    @media(min-width: 900px){
+        left: 120px;
+    }
+}
+.description li:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
+.description li:active{
+   background-color:hsl(75, 94%, 57%);
+}
+ .description li:focus{
+    background-color: hsl(75, 94%, 60%);
+}
+.description h3{
+  color: hsl(75, 94%, 57%); 
+   padding-bottom: 2em;
+}
